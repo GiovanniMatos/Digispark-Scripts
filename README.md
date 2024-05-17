@@ -1,2 +1,2 @@
 # Digispark-Scripts
-Repositório para Scripts do Digispark
+Repositório para Scripts do Digispark (Adaptado para ABNT2)
